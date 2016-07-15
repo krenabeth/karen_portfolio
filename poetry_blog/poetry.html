@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Karen's Poetry Blog</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- extra css -->
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<!--title-->
+  <div class="container">
+        <div class="row text-center">
+        <h1>Karen's Poetry Blog</h1>
+        <h3>Something to say here</h3>
+    </div>
+<!--navigation-->
+    <div class="row">
+    <div class="container col-md-3"> 
+   
+
+      <nav class="navbar navbar-fixed-left navbar-light bg-faded">
+        <ul class="nav nav-pills nav-stacked">
+
+
+
+          <li class="nav-item active">
+            <a class="nav-link" href="blog.html">Home</li>
+
+
+              
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a></li>
+
+          <li><img src="images/navbarProfile.jpg" alt="Karen" width="100" height="100" /><p>Karen loves poetry - listening, line-by-line reading, and occasionally writing poetry. Karen loves <a href="https://www.coursera.org/learn/modpo">ModPo</a> <span class="glyphicon glyphicon-heart"></span> which begins with Dickinson and Whitman, of course. </p></li>
+
+          <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Archives <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>May</li>
+              <li>April</li>
+              <li>March</li>
+              <li>February</li>
+              <li>January</li>
+              <li>2015</li>
+
+            </ul><br />
+
+
+           <li><p>The cat doesn't like it when his face is covered by a dropdown menu. The cat doesn't like it when his face is covered by a dropdown menu. The cat doesn't like it when his face is covered by a dropdown menu. The cat doesn't like it when his face is covered by a dropdown menu.</p>
+            <img src="images/roo.jpg" width="100" height="178" alt="cat lounging" /><p>
+            Don't forget that cats enjoy being read to - whether poetry, fiction, or nonfiction - they delight in getting up and either leaving the room or turning to face the other direction when you begin to read aloud.</p>
+          </li>
+
+        </ul>
+      </nav>
+  </div>
+  <div class="col-md-5 article">
+<!-- articles with floated images -->
+    <div class="row">
+          <div class="row thumbnail">   
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/800px-Black-white_photograph_of_Emily_Dickinson2.png" alt="Emily Dickinson" class="picture" />
+            <div class="caption">
+              <h3>Emily Dickinson</h3>
+              <p>She rose to His Requirement – dropt The Playthings of Her Life To take the honorable Work Of Woman, and of Wife - If ought She missed in Her new Day, Of Amplitude, or Awe - Or first Prospective - Or the Gold In using, wear away, It lay unmentioned - as the Sea Develope Pearl, and Weed, But only to Himself - be known The Fathoms they abide - </p>
+              <p>She rose to His Requirement – dropt The Playthings of Her Life To take the honorable Work Of Woman, and of Wife - If ought She missed in Her new Day, Of Amplitude, or Awe - Or first Prospective - Or the Gold In using, wear away, It lay unmentioned - as the Sea Develope Pearl, and Weed, But only to Himself - be known The Fathoms they abide - </p>
+              <p><a href="#" class="btn btn-primary">read more</a></p>
+            </div>
+          </div>
+
+          <div class="row thumbnail">   
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Whitman_at_about_fifty.jpg" alt="Walt Whitman" class="picture" />
+            <div class="caption">
+              <h3>Walt Whitman</h3>
+              <p>Have you reckoned a thousand acres much? Have you reckoned the earth much? Have you practiced so long to learn to read? Have you felt so proud to get at the meaning of poems? Stop this day and night with me and you shall possess the origin of all poems, You shall possess the good of the earth and sun . . . . there are millions of suns left, You shall no longer take things at second or third hand . . . . nor look through the eyes of the dead . . . . nor feed on the spectres in books, You shall not look through my eyes either, nor take things from me, You shall listen to all sides and filter them from yourself. I have heard what the talkers were talking . . . . the talk of the beginning and the end, But I do not talk of the beginning or the end.
+              </p>
+              <p><a href="#" class="btn btn-primary">read more</a></p>
+            </div>
+          </div>
+       
+      </div>
+
+    </div>
+ <!-- form on the right -->
+
+      <div class="col-md-4">
+        <form>
+          <div class="jumbotron form-group">
+
+            <h3>What do you think? Dickinson or Whitman?</h3>
+            <h4>Pick a team:</h4>
+            <input type="radio" name="poet"/> Dickinsonian <span class="glyphicon glyphicon-eye-open"></span><br />
+            <input type="radio" name="poet"/> Whitmanian <span class="glyphicon glyphicon-leaf"></span>
+            <h4>Pick a theme: </h4>
+            <select name="topic">
+              <option value="leaves">leaves</option>
+              <option value="grass">grass</option>
+              <option value="bird">bird</option>
+              <option value="feathers">feathers</option>
+            </select> <br/>
+
+            <h4>Comments welcome: </h4>
+              <input type="textarea" placeholder="Enter text here..."></input> <br />
+
+          <button type="submit" class="btn btn-default" value="submit">submit</button>
+          </div>
+        </form>
+      </div>
+      
+     </div>
+
+<!-- footer -->
+    <div class="row">
+      <div class="col-md-12">
+        <h5 class="text-center"><a href="email:#">Contact me</a><br />
+        <q>Hope is the thing with feathers, that perches in the soul</q> ~ Emily Dickinson<br />
+        &copy; 2016 Karen Langner</h5>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  </div> <!--closes container-->
+
+  </body>
+</html>

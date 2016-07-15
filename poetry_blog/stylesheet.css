@@ -1,0 +1,16 @@
+.caption p:first-letter {
+	font-size: 2em;
+	font-family: cursive;
+}
+
+p:first-line {
+
+}
+
+.picture {
+	width: 50%;
+	height: 50%;
+	position: relative;
+	float: right;
+	padding: 5px;
+}
