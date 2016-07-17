@@ -5,22 +5,16 @@
 	<head>
 		<title>Karen Langner</title>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
-
+<!-- 		 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+			<script src="jquery-3.0.0.min.js"></script>
 	</head>
 
 	<body>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="codes.html">Coding fun</a></li>
-				<li><a href="poetry_blog/poetry.html">Poetry blog</a></li>
-			</ul>
-		</nav>
+		<nav id="nav01"></nav>
+		<script src="scripts.js"></script>
 	
 		<header>Karen Langner</header>
-		<div class="center">
+		<div class="center" id="main">
 			<p>Aspiring web developer</p>
 
 			<img src="images/basketball.jpg" class="main side" />
@@ -34,6 +28,37 @@
 			<p>As Arthur Ashe said, <q>The doing is often more important than the outcome.</q></p>
 			
 			</div>
+
+
+		<div class="center" id="codes">
+		<div><h2>Coding fun</h2>
+			<ul>
+				<li><h3>Papa Alpha Charlie - Phonetic Alphabet Converter</h3>
+				<script src="phonetic_alphabet.js"></script>
+					<form name="text" method="get">
+					Enter text to convert: <input type="text" label="name" id="input">
+					<input type="button" onclick="convertABC()" value ="Submit" />
+					</form>
+					<p id="answer"> </p></li>
+
+				<li>Grocery List</li>
+				<li>Temperature Converter</li>
+			</ul>
+		</div>
+
+
+		<div class="center" id="contact">
+
+
+		<div><h2>Contact</h2>
+		<form method="get" id="form">
+			First Name:<input type="text" id="first" label="First Name" /><br />
+			Last Name:<input type="text" id="last" label="Last Name" /><br />
+			Email address:<input type="email" id="email" label="Email" /><br />
+			Comments:<br /><input type="textarea" id="comments" label="Comments" /><br />
+			<button id="button" label="submit">Submit</button>
+		</form>
+		</div>
 
 		</div>
 
