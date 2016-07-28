@@ -1,0 +1,38 @@
+div#folio {
+	background-color: white;
+	border-radius: 15px 15px 0 0;
+	color: #331e1e;
+	padding: 5%;
+	margin: 5px;
+}
+
+.imgProject {
+	border-radius: 2px;
+	box-shadow: 0 0 20px black;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+.project {
+	display: inline-block;
+	background-color: #f2d2b1;
+	margin: 10px;
+}
+
+.skillBox {
+	background-color: black;
+	color: white;
+	box-shadow: 1px 1px 1px white;
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 2px;
+}
+
+a.projectLink {
+	text-decoration: none;
+}
+
+a.projectLink:hover {
+	opacity: 1.0;
+}
+
