@@ -7,3 +7,13 @@ app.directive('project', function() {
 		// add link here
 	};
 });
+
+app.directive('descrip',function($scope, projectCtrl){
+  return {
+      restrict: 'E',
+      replace: true, 
+      scope: true,
+      template: "ng-click=(alert({{ projects.description }})"
+  }     
+});
+  

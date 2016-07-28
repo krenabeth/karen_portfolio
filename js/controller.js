@@ -4,65 +4,65 @@ app.controller('projectCtrl', function($scope) {
 	// here is the array of project objects
 	$scope.projects = [
 		{
-			title: "title here",
+			title: "Everything Elephant",
 			image: {
-				path: "image location here",
-				altText: "alternative text here"
+				path: "images/elephant_project.png",
+				altText: "elephant articles project"
 			},
 			link: "project link here",
 			skills: ['skill1', 'skill2', 'skill3'],
-			description: "describe the project here"
+			description: "Added articles and comments using AngularJS directive"
 
 		},
 				{
-			title: "title here",
+			title: "Hamster Heaven",
 			image: {
-				path: "image location here",
-				altText: "alternative text here"
+				path: "images/hamster_project.png",
+				altText: "hamster characters project"
 			},
 			link: "project link here",
 			skills: ['skill1', 'skill2', 'skill3'],
-			description: "describe the project here"
+			description: "Hamster fan site"
 
 		},
 		{
-			title: "title here",
+			title: "Talk-a-thon",
 			image: {
-				path: "image location here",
-				altText: "alternative text here"
+				path: "images/talk_a_thon_project.png",
+				altText: "six-year-old talk simulator"
 			},
 			link: "project link here",
 			skills: ['skill1', 'skill2', 'skill3'],
-			description: "describe the project here"
+			description: "Using AngularJS to add text and decorated text to the DOM"
 
 		},
 		{
-			title: "title here",
+			title: "To do list",
 			image: {
-				path: "image location here",
-				altText: "alternative text here"
+				path: "images/to_do_project.png",
+				altText: " "
 			},
 			link: "project link here",
 			skills: ['skill1', 'skill2', 'skill3'],
-			description: "describe the project here"
+			description: "Using AngularJS to add items to the to-do list"
 
 		},
 		{
 			title: "GSD Theater",
 			image: {
-				path: "image location here",
-				altText: "alternative text here"
+				path: "images/theater_project.png",
+				altText: " "
 			},
 			link: "project link here",
 			skills: ['skill1', 'skill2', 'skill3'],
-			description: "describe the project here"
+			description: "Theater reservations"
 
 		},
 		{
 			title: "Poetry Blog",
 			image: {
-				path: "image location here",
-				altText: "alternative text here"
+				path: "images/poetry.png",
+				altText: " "
 			},
 			link: "project link here",
 			skills: ['skill1', 'skill2', 'skill3'],
