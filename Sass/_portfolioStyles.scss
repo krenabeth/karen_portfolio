@@ -1,31 +1,44 @@
-div#folio {
-	background-color: white;
-	border-radius: 15px 15px 0 0;
-	color: #331e1e;
-	padding: 5%;
-	margin: 5px;
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
 }
 
-.imgProject {
-	border-radius: 2px;
-	box-shadow: 0 0 20px black;
-	width: 150px;
-	height: 150px;
-	margin: auto;
+div#folio {
+	background-color: white;
+	@include border-radius(15px 15px 0 0);
+	color: #331e1e;
+	padding: 1px 10px;
+	margin: 1px auto;
 }
 .project {
 	display: inline-block;
-	background-color: #f2d2b1;
-	margin: 10px;
+	background-color: #f6a510;
+	box-shadow: 0px 4px 10px black;
+	margin: 30px;
+	padding: 2px 12px;
 }
-
+h3 {
+	color: black;
+	margin-top: -30px;
+}
+.imgProject {
+	border: 2px solid black;
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+	float: center;
+}
 .skillBox {
 	background-color: black;
 	color: white;
-	box-shadow: 1px 1px 1px white;
+	padding: 3px;
 	display: inline-block;
 	list-style-type: none;
-	margin-right: 2px;
+	margin-right: 3px;
+	margin-left: 3px;
+	float: center;
 }
 
 a.projectLink {
@@ -33,6 +46,6 @@ a.projectLink {
 }
 
 a.projectLink:hover {
-	opacity: 1.0;
+	opacity: 0.8;
 }
 

@@ -1,35 +1,46 @@
 div#folio {
   background-color: white;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  -ms-border-radius: 15px 15px 0 0;
   border-radius: 15px 15px 0 0;
   color: #331e1e;
-  padding: 5%;
-  margin: 5px; }
-
-.imgProject {
-  border-radius: 2px;
-  box-shadow: 0 0 20px black;
-  width: 150px;
-  height: 150px;
-  margin: auto; }
+  padding: 1px 10px;
+  margin: 1px auto; }
 
 .project {
   display: inline-block;
-  background-color: #f2d2b1;
-  margin: 10px; }
+  background-color: #f6a510;
+  box-shadow: 0px 4px 10px black;
+  margin: 30px;
+  padding: 2px 12px; }
+
+h3 {
+  color: black;
+  margin-top: -30px; }
+
+.imgProject {
+  border: 2px solid black;
+  width: 300px;
+  height: 150px;
+  margin: 0 auto;
+  float: center; }
 
 .skillBox {
   background-color: black;
   color: white;
-  box-shadow: 1px 1px 1px white;
+  padding: 3px;
   display: inline-block;
   list-style-type: none;
-  margin-right: 2px; }
+  margin-right: 3px;
+  margin-left: 3px;
+  float: center; }
 
 a.projectLink {
   text-decoration: none; }
 
 a.projectLink:hover {
-  opacity: 1.0; }
+  opacity: 0.8; }
 
 * {
   font-family: Courier, monospace; }
@@ -56,10 +67,16 @@ nav ul li {
 
 .tab {
   background-color: white;
+  -webkit-border-radius: 20px 10px;
+  -moz-border-radius: 20px 10px;
+  -ms-border-radius: 20px 10px;
   border-radius: 20px 10px; }
 
 .current {
   background-color: orange;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -ms-border-radius: 20px 20px 0 0;
   border-radius: 20px 20px 0 0; }
 
 /*end navigation styling*/
@@ -68,15 +85,22 @@ header {
   color: white;
   text-align: center;
   padding: 10px;
-  border-bottom: 1px dashed #eaeaea; }
+  border-bottom: 1px dashed #eaeaea;
+  margin-top: -30px; }
 
 div.center {
   text-align: center;
   padding: 5px;
   background-color: #077524;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
   border-radius: 15px; }
 
 img.main {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 0px 5px 5px 5px #1c4b1c; }
@@ -96,6 +120,9 @@ div.quote {
 
 .photo {
   float: right;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 0px 3px 7px 1px #1c4b1c;
@@ -112,6 +139,9 @@ div.quote {
   background-color: #d6c0ec;
   padding: 5px 10px;
   margin: 40px;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  -moz-border-radius: 15px 15px 0px 0px;
+  -ms-border-radius: 15px 15px 0px 0px;
   border-radius: 15px 15px 0px 0px;
   box-shadow: 2px 1px 1px black; }
 
