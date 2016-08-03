@@ -5,8 +5,7 @@ document.getElementById("nav01").innerHTML =
 		"<li id='about' class='tab'><a href='about.html'>About</a></li>" +
 		"<li id='portfolio' class='tab'><a href='portfolio.html'>Portfolio</a></li>" +
 
-		// fix the following two to work on other pages than index
-		"<li id='codes' class='tab'><a href='#codes'>Coding Fun</a></li>" +
+		// fix the following to work on other pages than index
 		"<li id='contact' class='tab'><a href='#contact'>Contact</a></li>" +
 	"</ul>";
 

@@ -1,0 +1,19 @@
+nav {
+	text-align: center;
+}
+nav ul li {
+	display: inline;
+	margin-right: 25px;
+	font-size: 1.25em;
+	padding: 4px 12px;
+}
+
+.tab {
+	background-color: white;
+	@include border-radius(20px 10px);
+}
+
+.current {
+	background-color: orange;
+	@include border-radius(20px 20px 0 0);
+}

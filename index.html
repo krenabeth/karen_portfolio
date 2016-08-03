@@ -7,6 +7,7 @@
 		<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
 		 <script src="http://code.jquery.com/jquery-1.11.3.min.js">
 		 </script>
+		 <script src="js/phonetic_alphabet.js"></script>
 <!-- 			 <script src="js/jquery-3.0.0.min.js"></script> -->
 
 	</head>
@@ -17,7 +18,7 @@
 	
 		<header>Karen Langner</header>
 		<div class="center" id="main">
-			<p>Aspiring web developer</p>
+			<p>Front-end web developer</p>
 
 			<img src="images/basketball.jpg" class="main side" />
 
@@ -27,40 +28,33 @@
 		
 			<div class="quote">
 			<blockquote cite="http://www.brainyquote.com/quotes/quotes/a/arthurashe371528.html"><p>Life is a journey, not a destination.</p></blockquote>
-			<p>As Arthur Ashe said, <q>The doing is often more important than the outcome.</q></p>
-			
 			</div>
 
 
-		<div class="center" id="codes">
-		<div><h2>Coding fun</h2>
-			<ul>
-				<li><h3>Papa Alpha Charlie - Phonetic Alphabet Converter</h3>
-				<script src="phonetic_alphabet.js"></script>
-					<form name="text" method="get">
-					Enter text to convert: <input type="text" label="name" id="input">
+		<div class="left">
+			<script src="phonetic_alphabet.js"></script>
+				<form name="text" method="get">
+					<fieldset>
+						<legend>Papa Alpha Charlie</legend>
+					This is a phonetic Alphabet Converter - enter text to convert: <input type="text" label="name" id="input">
 					<input type="button" onclick="convertABC()" value ="Submit" />
-					</form>
-					<p id="answer"> </p></li>
-
-				<li>Grocery List</li>
-				<li>Temperature Converter</li>
-			</ul>
+					</fieldset>
+					<p id="answer"> </p>
+				</form>
 		</div>
 
+		<div class="right">
 
-		<div class="center" id="contact">
-
-
-		<div><h2>Contact</h2>
 		<form method="get" id="form">
-			First Name:<input type="text" id="first" label="First Name" /><br />
-			Last Name:<input type="text" id="last" label="Last Name" /><br />
-			Email address:<input type="email" id="email" label="Email" /><br />
-			Comments:<br /><input type="textarea" id="comments" label="Comments" /><br />
-			<button type="button" id="button" label="submit">Submit</button>
+			<fieldset>
+				<legend>Contact Karen</legend>
+				First Name:<input type="text" id="first" label="First Name" /><br />
+				Last Name:<input type="text" id="last" label="Last Name" /><br />
+				Email address:<input type="email" id="email" label="Email" /><br />
+				Comments:<br /><input type="textarea" id="comments" label="Comments" /><br />
+				<button type="button" id="button" label="submit">Submit</button>
+			</fieldset>
 		</form>
-		</div>
 
 		</div>
 
