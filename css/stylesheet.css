@@ -47,7 +47,7 @@ nav {
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 25px;
   font-size: 1.25em;
   padding: 4px 12px; }
 
@@ -67,6 +67,13 @@ nav ul li {
 
 * {
   font-family: Courier, monospace; }
+
+@font-face {
+  font-family: 'Angelina';
+  src: url("css/angelina.ttf"); }
+
+h1 {
+  font-family: 'Angelina', monospace; }
 
 body {
   background-color: #579E48;
@@ -114,16 +121,15 @@ div.quote {
 
 div.left {
   width: 40%;
-  margin-top: 20px;
+  margin: 5%;
   float: left;
-  margin-left: 10%; }
+  text-align: left; }
 
 div.right {
   text-align: right;
   float: right;
   width: 35%;
-  margin-right: 10%;
-  margin-left: 0px; }
+  margin: 5%; }
 
 /*  About page */
 .about {

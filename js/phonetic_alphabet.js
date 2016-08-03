@@ -5,7 +5,7 @@ name = name.toUpperCase();
 
 var i = 0;
 var word;
-var msg = "Your phonetic alphabet translation: ";
+var msg = 'Your phonetic alphabet translation: "';
 
 while (i < name.length) {
   var letter = name.charAt(i);
@@ -62,7 +62,8 @@ while (i < name.length) {
     } else {
       word = "Zulu";
     }
-  msg += ' ' + word; i++;
+  msg += word + ' '; i++;
 }
- document.getElementById("answer").innerHTML = msg;
+// get rid of last space on answer
+ document.getElementById("answer").innerHTML = msg + '"';
 }
