@@ -68,13 +68,6 @@ nav ul li {
 * {
   font-family: Courier, monospace; }
 
-@font-face {
-  font-family: 'Angelina';
-  src: url("css/angelina.ttf"); }
-
-h1 {
-  font-family: 'Angelina', monospace; }
-
 body {
   background-color: #579E48;
   font-size: 150%; }
@@ -86,11 +79,13 @@ a:hover {
   opacity: 0.5; }
 
 header {
-  font-size: 3em;
+  font-family: 'Caveat', cursive;
+  font-size: 4em;
   color: white;
   text-align: center;
   padding: 10px;
   border-bottom: 1px dashed #eaeaea;
+  border-radius: 0px -25px -10px 0px;
   margin-top: -30px; }
 
 div.center {
@@ -130,6 +125,13 @@ div.right {
   float: right;
   width: 35%;
   margin: 5%; }
+
+fieldset {
+  border: 2px dotted black;
+  border-radius: 10px; }
+
+#answer {
+  background-color: #f4ede5; }
 
 /*  About page */
 .about {
