@@ -5,6 +5,7 @@
 	<head>
 		<title>Karen Langner</title>
 		<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+		<link href='https://fonts.googleapis.com/css?family=Caveat:700' rel='stylesheet' type='text/css'>
 		 <script src="http://code.jquery.com/jquery-1.11.3.min.js">
 		 </script>
 		 <script src="js/phonetic_alphabet.js"></script>
@@ -20,7 +21,12 @@
 		<div class="center" id="main">
 			<p>Front-end web developer</p>
 
-			<img src="images/basketball.jpg" class="main side" />
+        	<video src="" 
+        		autoplay 
+        		class="main side" 
+        		preload
+        		width="300" height="200"><p>The pages are turning...</p>
+			</video>
 
 			<img src="images/karen.jpg" alt="photograph by Kerry Hansen" class="main" width="465" height="465"/>
 
@@ -35,8 +41,8 @@
 				<form name="text" method="get">
 					<fieldset>
 						<legend>Papa Alpha Charlie</legend>
-					This is a phonetic Alphabet Converter - enter text to convert: <input type="text" label="name" id="input">
-					<input type="button" onclick="convertABC()" value ="Submit" />
+					This is a phonetic Alphabet Converter - enter text to convert: <input type="text" label="name" id="input" placeholder="Siobhan">
+					<input type="button" onclick="convertABC()" value ="Submit" class="myButton"/>
 					</fieldset>
 					<p id="answer"> </p>
 				</form>
@@ -51,7 +57,7 @@
 				Last Name:<input type="text" id="last" label="Last Name" /><br />
 				Email address:<input type="email" id="email" label="Email" /><br />
 				Comments:<br /><input type="textarea" id="comments" label="Comments" /><br />
-				<button type="button" id="button" label="submit">Submit</button>
+				<button type="button" id="button" label="submit" class="myButton">Submit</button>
 			</fieldset>
 		</form>
 
