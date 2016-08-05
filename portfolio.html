@@ -4,8 +4,9 @@
 
 	<head>
 		<title>Portfolio</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Caveat:700' rel='stylesheet' type='text/css'>
 		<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
-		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js" type="text/javascript"></script>
 
 		<script src="js/app.js"></script>
@@ -19,6 +20,13 @@
 		<header>Karen Langner</header>
 		<div id="folio">
 			<div><h2>Front-end web development projects</h2>
+				<ul>
+					<input type="checkbox" id="js" /><li class="skillBox">JavaScript</li>
+					<input type="checkbox" id="jquery"/><li class="skillBox">jQuery</li>
+					<input type="checkbox" id="angular"/><li class="skillBox">AngularJS</li>
+					<input type="checkbox" id="bootstrap" /><li class="skillBox">Bootstrap</li>
+					<button class="myButton">Filter</button>
+				</ul>
 			</div>
 
 			<div ng-app="projectApp" ng-controller="projectCtrl">

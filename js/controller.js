@@ -4,25 +4,25 @@ app.controller('projectCtrl', function($scope) {
 	// here is the array of project objects
 	$scope.projects = [
 		{
-			title: "Everything Elephant",
+			title: "Fitbit",
 			image: {
-				path: "images/elephant_project.png",
-				altText: "elephant articles project"
+				path: "",
+				altText: ""
 			},
-			link: "project link here",
+			link: "",
 			skills: ['skill1', 'skill2', 'skill3'],
-			description: "Added articles and comments using AngularJS directive"
+			description: ""
 
 		},
 				{
-			title: "Hamster Heaven",
+			title: "Artwork by Pat Langner",
 			image: {
-				path: "images/hamster_project.png",
-				altText: "hamster characters project"
+				path: "",
+				altText: ""
 			},
-			link: "project link here",
-			skills: ['skill1', 'skill2', 'skill3'],
-			description: "Hamster fan site"
+			link: "http://www.patlangner.com",
+			skills: ['AngularJS', 'skill2', 'skill3'],
+			description: "artist gallery"
 
 		},
 		{
@@ -33,7 +33,7 @@ app.controller('projectCtrl', function($scope) {
 			},
 			link: "project link here",
 			skills: ['skill1', 'skill2', 'skill3'],
-			description: "Using AngularJS to add text and decorated text to the DOM"
+			description: "AngularJS to add text to the DOM"
 
 		},
 		{
@@ -46,38 +46,27 @@ app.controller('projectCtrl', function($scope) {
 			skills: ['skill1', 'skill2', 'skill3'],
 			description: "Using AngularJS to add items to the to-do list"
 
-		},
+		},	
 		{
-			title: "GSD Theater",
+			title: "Re: Poetry",
 			image: {
-				path: "images/theater_project.png",
+				path: "",
 				altText: " "
 			},
 			link: "project link here",
-			skills: ['skill1', 'skill2', 'skill3'],
-			description: "Theater reservations"
+			skills: ['AngularJS', 'skill2', 'skill3'],
+			description: "Heroku "
 
 		},
 		{
-			title: "Poetry Blog",
+			title: "How to Choose a Pet",
 			image: {
-				path: "images/poetry.png",
-				altText: " "
+				path: "",
+				altText: ""
 			},
-			link: "project link here",
-			skills: ['skill1', 'skill2', 'skill3'],
-			description: "describe the project here"
-
-		},
-		{
-			title: "Treehouse",
-			image: {
-				path: "images/TreehouseFriends.png",
-				altText: "Berenstain Bears fan club website project"
-			},
-			link: "https://github.com/krenabeth/Langner_Bootstrap",
-			skills: ['bootstrap', 'skill2', 'skill3'],
-			description: "Fan page for the Berenstain Bears tv show (2003) using Bootstrap"
+			link: "https://github.com/krenabeth",
+			skills: ['AngularJS', 'skill2', 'skill3'],
+			description: ""
 
 		}
 	] // closing projects array

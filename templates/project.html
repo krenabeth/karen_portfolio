@@ -1,10 +1,15 @@
-<!-- <a href="{{ project.link }}" class="projectLink"> -->
-
+<!-- 
 	<div class="project" ng-click="descrip()"><h3>{{ project.title }}</h3>
-	<img ng-src="{{ project.image.path }}" alt="{{ project.image.altText }}" class="imgProject" />
+	<a href="{{ project.link }}" class="projectLink"><img ng-src="{{ project.image.path }}" alt="{{ project.image.altText }}" class="imgProject" /></a>
 	<ul>
 		<li ng-repeat="skill in project.skills" class="skillBox">{{ skill }}</li>
 	</ul>
 </div>
+ -->
 
-<!-- </a> -->
++<a href="{{ project.link }}" class="projectLink"><div class="project"><h3>{{ project.title }}</h3>
+ +	<img ng-src="{{ project.image.path }}" alt="{{ project.image.altText }}" class="imgProject" />
+ +	<ul>
+ +		<li ng-repeat="skill in project.skills" class="skillBox">{{ skill }}</li>
+ +	</ul>
+ +</div></a> 

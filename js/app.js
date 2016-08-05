@@ -8,12 +8,12 @@ app.directive('project', function() {
 	};
 });
 
-app.directive('descrip',function($scope, projectCtrl){
-  return {
-      restrict: 'E',
-      replace: true, 
-      scope: true,
-      template: "ng-click=(alert({{ projects.description }})"
-  }     
-});
+// app.directive('descrip',function($scope, projectCtrl){
+//   return {
+//       restrict: 'E',
+//       replace: true, 
+//       scope: true,
+//       template: "ng-click=(alert({{ projects.description }})"
+//   }     
+// });
   

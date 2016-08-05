@@ -6,8 +6,8 @@ document.getElementById("nav01").innerHTML =
 		"<li id='portfolio' class='tab'><a href='portfolio.html'>Portfolio</a></li>" +
 
 		// fix the following to work on other pages than index
-		"<li id='contact' class='tab'><a href='#contact'>Contact</a></li>" +
-	"</ul>";
+	// 	"<li id='contact' class='tab'><a href='#contact'>Contact</a></li>" +
+	// "</ul>";
 
 // here's some jQuery
 $(document).ready(function() {
