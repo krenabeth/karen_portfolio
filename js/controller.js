@@ -4,24 +4,24 @@ app.controller('projectCtrl', function($scope) {
 	// here is the array of project objects
 	$scope.projects = [
 		{
-			title: "Fitbit",
+			title: "FitKnit",
 			image: {
-				path: "",
-				altText: ""
+				path: "images/fitknit.png",
+				altText: "FitKnit"
 			},
-			link: "",
-			skills: ['skill1', 'skill2', 'skill3'],
-			description: ""
+			link: "http://fitknit.herokuapp.com",
+			skills: ['AngularJS'],
+			description: "Fitbit user application"
 
 		},
 				{
-			title: "Artwork by Pat Langner",
+			title: "Art by Pat Langner",
 			image: {
-				path: "",
+				path: "images/plangner.png",
 				altText: ""
 			},
 			link: "http://www.patlangner.com",
-			skills: ['AngularJS', 'skill2', 'skill3'],
+			skills: ['JavaScript', 'AngularJS'],
 			description: "artist gallery"
 
 		},
@@ -31,42 +31,31 @@ app.controller('projectCtrl', function($scope) {
 				path: "images/talk_a_thon_project.png",
 				altText: "six-year-old talk simulator"
 			},
-			link: "project link here",
-			skills: ['skill1', 'skill2', 'skill3'],
+			link: "https://github.com/krenabeth/lab13-talk-a-thon",
+			skills: ['JavaScript', 'AngularJS'],
 			description: "AngularJS to add text to the DOM"
 
-		},
-		{
-			title: "To do list",
-			image: {
-				path: "images/to_do_project.png",
-				altText: " "
-			},
-			link: "project link here",
-			skills: ['skill1', 'skill2', 'skill3'],
-			description: "Using AngularJS to add items to the to-do list"
-
 		},	
-		{
-			title: "Re: Poetry",
-			image: {
-				path: "",
-				altText: " "
-			},
-			link: "project link here",
-			skills: ['AngularJS', 'skill2', 'skill3'],
-			description: "Heroku "
+		// {
+		// 	title: "Re: Poetry",
+		// 	image: {
+		// 		path: "",
+		// 		altText: " "
+		// 	},
+		// 	link: "https://cryptic-caverns-43592.herokuapp.com/#/partials/poetry.html",
+		// 	skills: ['AngularJS', 'Node.js', 'Heroku'],
+		// 	description: ""
 
-		},
+		// },
 		{
-			title: "How to Choose a Pet",
+			title: "Choosing a Pet",
 			image: {
-				path: "",
-				altText: ""
+				path: "images/lab14-cat-dog.png",
+				altText: "lab 14 for Grand Circus front-end bootcamp"
 			},
-			link: "https://github.com/krenabeth",
-			skills: ['AngularJS', 'skill2', 'skill3'],
-			description: ""
+			link: "https://github.com/krenabeth/lab14-cat-dog",
+			skills: ['JavaScript', 'AngularJS'],
+			description: "Single Page Application"
 
 		}
 	] // closing projects array
