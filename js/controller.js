@@ -11,7 +11,7 @@ app.controller('projectCtrl', function($scope) {
 			},
 			link: "http://fitknit.herokuapp.com",
 			skills: ['AngularJS'],
-			description: "Fitbit user application"
+			description: "Group project - Fitbit user application"
 
 		},
 				{
@@ -47,6 +47,28 @@ app.controller('projectCtrl', function($scope) {
 		// 	description: ""
 
 		// },
+		{
+			title: "Travel the World",
+			image: {
+				path: "images/travel.png",
+				altText: "lab 18 for Grand Circus front-end bootcamp"
+			},
+			link: "https://github.com/joshtlk1/TravelTheWord_flickr_apilab18",
+			skills: ['AngularJS'],
+			description: "Group project - using AngularJS"
+
+		}, 
+		{
+			title: "Poetry Blog",
+			image: {
+				path: "images/poetry.png",
+				altText: "lab for Grand Circus front-end bootcamp"
+			},
+			link: "https://github.com/krenabeth/poetry_blog",
+			skills: ['Bootstrap'],
+			description: "Bootstrap project"
+
+		},
 		{
 			title: "Choosing a Pet",
 			image: {
