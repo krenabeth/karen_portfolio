@@ -4,9 +4,6 @@ document.getElementById("nav01").innerHTML =
 		"<li id='home' class='tab'><a href='index.html'>Home</a></li>" +
 		"<li id='about' class='tab'><a href='about.html'>About</a></li>" +
 		"<li id='portfolio' class='tab'><a href='portfolio.html'>Portfolio</a></li>" 
-
-		// fix the following to work on other pages than index
-	// 	"<li id='contact' class='tab'><a href='#contact'>Contact</a></li>" +
 	"</ul>";
 
 // here's some jQuery
