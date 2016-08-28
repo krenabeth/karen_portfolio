@@ -138,6 +138,10 @@ fieldset {
 #answer {
   background-color: #f4ede5; }
 
+textarea {
+  width: 250px;
+  height: 100px; }
+
 .myButton {
   -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
   -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;

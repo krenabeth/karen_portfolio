@@ -72,6 +72,11 @@ fieldset {
 	background-color: #f4ede5;
 }
 
+textarea {
+	width: 250px;
+	height: 100px;
+}
+
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -135,6 +140,7 @@ fieldset {
 	background-color: #d6c0ec;
 	padding: 5px 10px;
 	margin: 40px;
+	text-align: left;
 	@include border-radius(15px 15px 0px 0px);
 	box-shadow: 2px 1px 1px black;
 }
