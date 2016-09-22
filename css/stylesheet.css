@@ -109,6 +109,14 @@ img.main {
   border: 1px solid black;
   box-shadow: 0px 5px 5px 5px #1c4b1c; }
 
+img.poetryImg {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 5px 5px 5px #1c4b1c; }
+
 div.quote {
   text-align: left;
   text-indent: 10px;
@@ -222,8 +230,10 @@ textarea {
     padding: 3px 10px;
     font-size: .8em; } }
 
-@media (max-width: 700px) {
+@media (max-width: 775px) {
   .leftPhoto {
+    display: none; }
+  img.poetryImg {
     display: none; }
   p {
     font-size: 75%; } }
