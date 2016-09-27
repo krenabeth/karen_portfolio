@@ -1,19 +1,29 @@
 nav {
 	text-align: center;
 }
+
+nav ul {
+	list-style: none;
+}
 nav ul li {
-	display: inline;
+	display: inline-block;
+}
+.tab {
 	margin-right: 25px;
 	font-size: 1.25em;
 	padding: 4px 12px;
-	margin-top: -5px;
-}
-
-.tab {
 	background-color: white;
 	@include border-radius(20px 10px);
+	border: 2px solid white;
 }
 
+.tab:hover {
+	background-color: #077524;
+	border: 2px solid white;
+}
+.tab a:hover {
+	color: white;
+}
 .current {
 	background-color: orange;
 	@include border-radius(20px 20px 0 0);
