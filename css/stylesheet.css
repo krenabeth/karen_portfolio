@@ -51,18 +51,22 @@ a.projectLink:hover {
 nav {
   text-align: center; }
 
+nav ul {
+  list-style: none; }
+
 nav ul li {
   display: inline-block; }
 
 .tab {
+  margin-right: 25px;
+  font-size: 1.25em;
+  padding: 4px 12px;
   background-color: white;
   padding: 4px 12px;
   -webkit-border-radius: 20px 10px;
   -moz-border-radius: 20px 10px;
   -ms-border-radius: 20px 10px;
   border-radius: 20px 10px;
-  margin-right: 25px;
-  font-size: 1.25em;
   margin-top: -5px;
   border: 2px solid white; }
 
@@ -88,13 +92,12 @@ nav ul li {
 
 body {
   background-color: #579E48;
-  font-size: 150%; }
+  font-size: 150%;
+  margin-top: 5px; }
 
 a {
-  text-decoration: none; }
-
-a:hover {
-  opacity: 0.5; }
+  text-decoration: none;
+  color: #077524; }
 
 header {
   font-family: 'Caveat', cursive;

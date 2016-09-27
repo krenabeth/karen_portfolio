@@ -1,16 +1,21 @@
 nav {
 	text-align: center;
 }
+
+nav ul {
+	list-style: none;
+}
 nav ul li {
 	display: inline-block;
 }
 
 .tab {
+	margin-right: 25px;
+	font-size: 1.25em;
+	padding: 4px 12px;
 	background-color: white;
 	padding: 4px 12px;
 	@include border-radius(20px 10px);
-	margin-right: 25px;
-	font-size: 1.25em;
 	margin-top: -5px;
 	border: 2px solid white;
 }
