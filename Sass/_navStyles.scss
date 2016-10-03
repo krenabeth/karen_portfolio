@@ -12,8 +12,8 @@ nav ul li {
 .tab {
 	margin-right: 25px;
 	font-size: 1.25em;
-	background-color: white;
 	padding: 4px 12px;
+	background-color: white;
 	@include border-radius(20px 10px);
 	margin-top: -5px;
 	border: 2px solid white;
@@ -21,7 +21,9 @@ nav ul li {
 
 .tab a {
 	color: #077524;
+	border: 2px solid white;
 }
+
 .tab:hover {
 	background-color: #077524;
 	border: 2px solid white;
